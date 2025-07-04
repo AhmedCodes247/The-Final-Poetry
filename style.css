@@ -1,0 +1,98 @@
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-VariableFont_wdth\,wght.ttf);
+}
+body{
+    padding: 10px;
+    font-family: Roboto;
+}
+h1{
+    font-size: 40px;
+    color: rgb(71, 76, 80);
+    /* text-shadow: 3px 5px 4px skyblue; */
+}
+h1:hover{
+    cursor: pointer;
+     text-shadow: 3px 5px 4px skyblue;
+}
+
+p{
+    font-size: 18px;
+}
+/* li,a {
+    list-style: none;
+    background-image: url(images.jpeg);
+    background-position: 12px;
+    background-repeat: no-repeat;
+    margin: 20px;
+    background-size: 25px;
+} */
+ ul.custom-bullet {
+  list-style: none; /* Default bullets hatado */
+  padding: 10;
+}
+
+ul.custom-bullet li {
+  background-image: url('images.jpeg'); /* Apni image ka path do */
+  background-repeat: no-repeat;
+  background-position: 0 2px; /* Adjust vertically if needed */
+  background-size: 20px;
+  padding-left: 35px; /* Adjust as per image width */
+  line-height: 2em;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: -80px;
+}
+table thead{
+    background-color: #6ea6e7;
+    color: black;
+}
+table th, table td{
+    border: 1px solid rgb(151, 201, 230);
+    text-align: center;
+    padding: 10px;
+    vertical-align: top;
+    text-align: left;
+}
+tbody{
+    background-color: rgb(151, 201, 230);
+}
+h3{
+    font-style: italic;
+}
+form{
+    margin-left: -88px;
+    padding: 10px;
+    font-weight: normal;
+    width: 200px;
+}
+fieldset {
+    width: 80vw;
+    vertical-align: text-bottom;
+    font-weight: normal;
+    width: 600px;
+    font-size: 16px;
+}
+.label{
+    margin-right: 100px;
+    cursor: pointer;
+}
+.selection{
+    margin-right: 40px;
+}
+select{
+    width: 150px;
+    font-size: 16px;
+    margin-left: 45px;
+}
+.row{
+    line-height: 0.2;
+}
+.wise{
+    line-height: 0.1;
+    cursor: pointer;
+    margin-right: 40px;
+}
